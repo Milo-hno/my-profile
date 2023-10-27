@@ -1,0 +1,103 @@
+/*style css*/
+body {
+  background: #F3D8A3;
+  color: #0B071F;
+  font-family: 'cursive';
+  font-size: 16px;
+  font-weight: lighter;
+
+}
+h1,h2 {
+  font-family: Apple Chancery;
+}
+h1 {
+  color:#F5B579 ;
+  font-size: 34px;
+}
+h2 {
+  color: #F5B579;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #F5B579;
+}
+a:hover {
+  color: black;
+}
+
+/*Custom design with class */
+
+.container{
+  width: 800px;
+  margin: 20px auto;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  margin: 20px 0px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px rgba(147, 0, 221, 0.1);
+  text-align: center;
+}
+
+.img-circle{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.logo{
+  width: 50px;
+  border-radius: 5px;
+}
+
+.btn-red{
+  background-color: #F5B579;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+.btn-red:hover{
+  background-color: #F4D1AC;
+  color: white;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li{
+  display: inline;
+  padding: 30px;
+}
+.list-inline i{
+  font-size: 70px;
+  color: #F5B579;
+}
+.list-inline I:hover{
+  font-size: 70px;
+  color: #F5B579;
+}
+
+#introduction p{
+  margin-bottom: 20px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
